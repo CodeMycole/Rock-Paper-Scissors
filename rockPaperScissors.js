@@ -29,7 +29,7 @@ function getComputerChoice() {
 
 // determines winner. return winner
 function determineWinner(userChoice=userInput, computerChoice=cmpChoice) {
-  if (userChoice = 'bomb') {
+  if (userChoice === 'bomb') {
     let winner = "BOOM user Wins!";
     return winner;
   }
